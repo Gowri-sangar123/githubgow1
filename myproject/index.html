@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <center>
+        <div class="full-form">
+            <form>
+                <table border="1">
+               <tr>
+                <td>
+                    <h2>Registration Form</h2>
+                    
+                    <div class="list">
+                        <label for="FIRSTNAME">FIRSTNAME:</label>
+                        <input type="text" id="FIRSTNAME" placeholder="Enter your Fname" minlength="6" maxlength="10"
+                            required>
+                    </div><br>
+
+                    <div class="list">
+                        <label for="MIDDLENAME">MIDDLENAME:</label>
+                        <input type="text" id="MIDDLENAME" placeholder="Enter your Mname" minlength="6" maxlength="10"
+                            required>
+                    </div><br>
+
+                    <div class="list">
+                        <label for="LASTNAME">LASTNAME:</label>
+                        <input type="text" id="LASTNAME" placeholder="Enter your Lname" minlength="6" maxlength="10"
+                            required>
+                    </div><br>
+
+                    <div class="list">
+                        <label for="DOB">DOB:</label>
+                        <input type="date" id="DOB" required>
+                    </div><br>
+
+                    <div class="list">
+                        <label for="GENDER">GENDER:</label>
+                        <input type="radio" name="GENDER">
+                        <label for="MALE">MALE</label>
+                        <input type="radio" name="GENDER">
+                        <label for="FEMALE">FEMALE</label>
+                        <input type="radio" name="GENDER">
+                        <label for="OTHERS">OTHERS</label>
+                    </div><br>
+
+                    <div class="list">
+                        <label for="COURSE">COURSE:</label>
+                        <input type="checkbox" id="SSLC" name="COURSE">
+                        <label>SSLC</label>
+                        <input type="checkbox" id="HSC" name="COURSE">
+                        <label>HSC</label>
+                        <input type="checkbox" id="UG" name="COURSE">
+                        <label>UG</label>
+                        <input type="checkbox" id="PG" name="COURSE">
+                        <label>PG</label>
+                        <input type="checkbox" id="DIPLOMO" name="COURSE">
+                        <label>DIPLOMO</label>
+                    </div><br><br>
+
+                      </td>
+                      <td>
+                    </div>
+                    
+                        <h2>Personal details</h2>
+                        <div class="list">
+                        <label for="EMAIL">EMAIL:</label>
+                        <input type="email" id="EMAIL" placeholder="enter your Email">
+                    </div><br>
+                    <div class="list">
+                        <label for="PASSWORD">PASSWORD:</label>
+                        <input type="password" id="PASSWORD" placeholder="enter your password">
+                    </div><br>
+                    <div class="list">
+                        <label for="CONFIRM PASSWORD">CONFIRM PASSWORD:</label>
+                        <input type="password" id=" CONFIRM PASSWORD" placeholder="Confirm password">
+                    </div><br>
+                    <div class="list">
+                        <label>SELECT YOUR STATE:</label>
+                        <input list="STATE" name="STATE">
+                        <datalist id="STATE">
+                            <option value="Tamilnadu">
+                            <option value="Bengaluru">
+                            <option value="Mumbai">
+                            <option value="Hydrabed">
+                            <option value="Delhi">
+                        </datalist>
+                    </div><br>
+                    <div class="list">
+                    <label>SELECT YOUR CITY:</label>
+                    <input list="CITY" name="CITY">
+                    <datalist id="CITY">
+                        <option value="Thiruvarur">
+                        <option value="Chennai">
+                        <option value="Madurai">
+                        <option value="Trichy">
+                        <option value="Coimbatore">
+                    </datalist><br><br><br>
+                    <div>
+                        <div class="list">
+                        <label for="ADDRESS">ADDRESS:</label>
+                        <textarea name="ADDRESS" rows="3" cols="30"></textarea>
+                    </div><br>
+                        <input type="checkbox" id="terms" name="terms">
+                        <label>I agree the <a href="#">terms and condition</a></label>
+                      
+                    
+                    <button type="submit" onclick="alert('successfully register')">Submit</button>
+                    <button type="reset">Clear</button>
+                    </td>
+                    </tr>
+                </table><br><br>
+            
+            </form>
+           
+        </div>
+    </center>
+</body>
+
+</html>
